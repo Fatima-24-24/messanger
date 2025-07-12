@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/script.js"></script>
+</head>
+<body>
+    <div id="a5">
+    Вход по номеру телефона<br>
+        <input id="a1" type="tel" placeholder="Телефон" name="tel" required><br><br>
+        <input id="a2" type="password" placeholder="Пароль" name="password" required><br><br>
+        <button id="a3">Вход</button>
+        <button id="a4">Зарегитрироваться</button>
+    </div>
+    <div id="a6">
+        Регистрация<br>
+        <input id="a7" type="tel" placeholder="Телефон" name="tel" required><br><br>
+        <input id="a8" type="password" placeholder="Пароль" name="password" required><br><br>
+        <input id="a9" type="text" placeholder="Имя" name="name" required><br><br>
+        <input id="a10" type="text" placeholder="Фамилия" name="surname" required><br><br>
+        <input id="a11" type="text" placeholder="Город" name="city" required><br><br>
+        <input id="a12" type="text" placeholder="Фото профиля" name="photo"><br><br>
+        <button type="text" id="a13">Зарегистрироваться</button><br>
+    </div>
+
+    <div id="a18">
+        <input id="find_user" type="tel" placeholder="Телефон" name="tel">
+        <button type="text" id="b1">Найти</button>
+    </div>
+
+    <div id="a14">
+    </div>
+</body>
+</html>
+
+<!-- ПОСТ
+# Получение JSON-данных из запроса
+        data = request.get_json()
+        
+        # Пример: извлечение поля 'name' из данных
+        name = data.get('name')
+ГЕТ
+# Получить параметры из URL: /ajax-get?name=John
+    name = request.args.get('name') -->
